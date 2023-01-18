@@ -21,6 +21,7 @@ export const Avatar = styled.img`
     margin: auto;
     margin-bottom: 20px;
     transform: scale(1);
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
